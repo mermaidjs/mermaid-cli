@@ -9,8 +9,6 @@ This CLI tool takes a mermaid definition file as input and generates svg/png/pdf
 
 ## Install locally
 
-Some people are [having issue](https://github.com/mermaidjs/mermaid.cli/issues/15) installing this tool globally. Installing it locally is an alternative solution:
-
 ```
 yarn add mermaid.cli
 ./node_modules/.bin/mmdc -h
@@ -25,8 +23,6 @@ npm install mermaid.cli
 
 
 ## Install globally
-
-❗️ We do **NOT** recommend installing it globally because both YARN and NPM could fail to install a command line tool globally properly due to weird permission issues.
 
 ```
 yarn global add mermaid.cli
